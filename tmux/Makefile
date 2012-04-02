@@ -19,4 +19,4 @@ tmux: tmux-1.6 pseudoroot
 	make
 	make install DESTDIR=../pseudoroot
 
-.PHONY deb tmux-1.6 pseudoroot tmux
+.PHONY: deb tmux-1.6 pseudoroot tmux
